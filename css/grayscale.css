@@ -355,6 +355,8 @@ footer {
 
 footer p {
     margin: 0;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 ::-moz-selection {
