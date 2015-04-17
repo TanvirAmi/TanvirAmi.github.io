@@ -61,7 +61,7 @@ a:focus {
 .light {
     font-weight: 400;
     font-weight: bold;
-    font-size: ;
+    font-size: 25px;
     box-shadow: -30px 0px 35px #7EAA18;
     border-radius: 3px;
 }
