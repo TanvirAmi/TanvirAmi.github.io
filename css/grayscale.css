@@ -60,6 +60,10 @@ a:focus {
 
 .light {
     font-weight: 400;
+    font-weight: bold;
+    font-size: ;
+    box-shadow: -30px 0px 35px #7EAA18;
+    border-radius: 3px;
 }
 
 .navbar-custom {
@@ -116,7 +120,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    color: #fff;
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -183,6 +187,7 @@ a:focus {
         font-size: 40px;
         font-family: monospace;
         margin-top: 75px;
+        font-weight: bold;
     }
 }
 
@@ -373,4 +378,13 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 5px 5px 7px #7EAA18;
 }
