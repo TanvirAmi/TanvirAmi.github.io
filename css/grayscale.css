@@ -189,6 +189,7 @@ a:focus {
         font-family: monospace;
         margin-top: 75px;
         font-weight: bold;
+        opacity: 0.8;
     }
 }
 
