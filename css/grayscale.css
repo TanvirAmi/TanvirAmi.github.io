@@ -376,11 +376,20 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
-
 .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 18px;
     font-weight: bold;
     box-shadow: 5px 5px 7px #7EAA18;
+}
+i.fa.fa-plug, i.fa.fa-heart{
+    color: #EC7412;
+}
+i.fa.fa-copyright{
+    color: #EC7412;
+    font-weight: bold;
+}
+.content-section {
+    padding-top: 200px;
 }
